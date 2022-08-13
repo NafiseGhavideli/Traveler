@@ -1,0 +1,116 @@
+/* 
+border:
+#ced4da
+#dee2e6
+colors:
+green: #28a745
+primary: #7AB730
+darkgray: #343a40 #212121
+gray: #6c757d
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.712);
+}
+.html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-weight: 400;
+  color: #656565;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #f3f3f3;
+}
+
+/* ************ */
+/* REUSEABLE COMPONENTS */
+/* ************ */
+.container {
+  max-width: 71rem;
+  margin: 0 auto;
+}
+.padding--base {
+  padding: 0 1.8rem;
+}
+.padding--sm {
+  padding: 1rem 1.8rem;
+}
+.margin--top {
+  margin-top: 9.6rem;
+}
+.margin--sm {
+  margin: 1.5rem 0;
+}
+.margin--md {
+  margin: 3.2rem 0;
+}
+.Gr {
+  color: #7ab730 !important;
+}
+.grid {
+  display: grid;
+  column-gap: 2rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--2-rows {
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 1.4rem;
+}
+.btn {
+  color: #fff;
+  background-color: #7ab730;
+  font-size: 1.1rem;
+  border: none;
+  padding: 1.2rem 3.2rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #527a20;
+}
+span[class*="-brand-logo"] {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+h6[class*="-heading"] {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #7ab730;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+h2[class*="-title"] {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212121;
+  line-height: 1.2;
+  text-align: center;
+}
