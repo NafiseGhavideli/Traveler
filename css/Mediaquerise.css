@@ -158,6 +158,9 @@
   .dot {
     opacity: 0;
   }
+  .footer-input {
+    flex-direction: column;
+  }
 }
 /* 560px */
 @media (max-width: 35em) {
@@ -188,5 +191,4 @@
   .hero-title {
     font-size: 2rem;
   }
- 
 }

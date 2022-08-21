@@ -200,11 +200,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1.2rem;
   margin-top: 1.5rem;
 }
 .about-img {
-  width: 100%;
+  width: 48%;
 }
 .about-btn {
   margin: 1rem 0;
@@ -709,7 +708,7 @@ footer {
   color: #527a20;
 }
 /* ------------ */
-/* FOOTER */
+/* UP */
 /* ------------ */
 .up-box {
   position: fixed;
